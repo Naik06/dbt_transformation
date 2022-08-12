@@ -1,0 +1,32 @@
+
+version: 2
+
+sources:
+  - name: dataform
+    tables:
+      - name: subscriber_demographics_lookup
+      - name: anonymous_demographics_lookup
+
+  - name: sdm_adobe_amp
+    tables:
+      - name: clickstream_ingest
+
+  - name : sdm_adobe_app
+    tables:
+      - name : clickstream_ingest
+
+  - name: sdm_adobe_web
+    tables:
+      - name : clickstream_ingest
+
+  - name: sdm_coral_comments
+    tables:
+      - name : comments_ingest
+
+  - name: prstn_verity
+    tables:
+      - name: insights_gradient_minutes
+
+  - name: bdm_verity
+    tables:
+      - name : content_dim

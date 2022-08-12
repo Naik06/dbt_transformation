@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: coral_comments_fct
+    columns:
+      - name: ArticleID
+        tests:
+          - unique
+          - not_null
